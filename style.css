@@ -1,0 +1,37 @@
+section.top-page{
+    background-image: url('images/unnamed.jpg');
+    height: 80vh;
+    background-size: cover;
+    padding: 25px;
+}
+header.entete{
+    display: flex;
+    align-items: center;
+ 
+}
+
+body{
+    margin: 0px;
+}
+
+header.entete img{
+    width: 80px;
+}
+.titreprincipal{
+    color: white;
+    font-size: 80px;
+    padding: 20px 50px;
+    font-weight: 100;
+}
+
+/*menu de navigation*/
+nav.barrenav{
+    display: flex;
+    list-style: none;
+    width: 400px;
+    margin-left: 30px;
+    justify-content: space-between;
+}
+nav.barrenav li{
+    color: rgb(255, 255, 255);
+}
